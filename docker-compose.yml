@@ -1,7 +1,7 @@
 version: '2.1'
 
 services:
-  programer:
+  spring-redis:
     build: spring-redis
     mem_limit: 350m
     ports:
